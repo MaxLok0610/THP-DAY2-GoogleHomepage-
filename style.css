@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;}
+
+/*margin: , font-family:correspond à la police du text*/
+
+ul{
+    list-style: none;}
+ /*Indique que les points de la balise sont supprimé*/
+
+.nav {
+   display: flex;/*display permet de changer le sens de la disposition du block*/
+   justify-content:flex-end;/*justify-content, déplace le contenu horizontalement*/
+   align-items: center;/* align-items,déplace le contenu verticalement*/
+   font-size:13px;/*à changé la taille de la police*/
+   padding-right: 30px; /*la distance (l'ecart) qui sépare la fin de ton texte et la bordure du bloc A DROITE
+   padding = marge interieur du bloc  */
+}
+
+.nav li { padding-left: 15px;} /* nav li correspond à l'écart qu'il y a à gauche des block de tous les li du grand block nav*/
+
+
+.nav a { color: inherit; /* color: inherit enlève la couleur du texte correspondant au lien*/
+    
+        text-decoration: none; /*supprime le soulignement du texte*/}
+
+.nav a:hover {
+            text-decoration: underline;
+              }/* le terme hover dynamise l'élément quand on survole la souris dessus, text-decoration:underline indique que un surlignement s'ajoute dessus quand on passe la souris dessus*/
+
+
+.nav img {
+
+    max-width: 35px; /*max-width définit la largeur maximal de l'élément (ce qui veux dire de l'image) */}
+
+.logogoole{
+    padding-top: 109px /*padding-top : correspond à la marge intérieur du haut  du block correspondant au logo google*/
+}
+
+.search {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar {
+margin-top: 18px; 
+width: 582px;/*largeur de la barre*/
+height: 45px;/*hauteur de la barre*/
+background: #fff;/*le fond intérieur de la barre*/
+border:1px solid #dfe1e5;/*taille de la bordure et couleur*/
+border-radius: 24px;/*border-radius = bordure arrondi*/
+}
+.searchbar:hover
+
+.searchbar:focus {
+
+	border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);}
+    
+.buttons {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+.coronavirus{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: #f8f8f8;
+	border: none;
+	padding: 0 16px;
+	border-radius: 4px;
+	color: #5f6368;
+	font-size: 14px;
+	margin: 11px 4px;
+	height: 36px;
+	min-width: 54px;
+	cursor: pointer;
+}
+.button:hover {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #c6c6c6;
+    color: #222;}
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #f2f2f2;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.54);
+    }
+    
+    footer p {
+        font-size: 15px;
+    }
+    
+    footer a {
+        font-size: 15px;
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+    }
+    
+    footer div {
+        padding-left: 27px;
+        border-top: 1px solid #e4e4e4;
+    }
+    
+    footer .links {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .links ul {
+        display: flex;
+        padding: 0;
+    }
+    
+    .links ul li {
+        padding-right: 27px;
+    }
+    
+    .symbole {padding-right: 10px; margin-bottom: 10px;} 
